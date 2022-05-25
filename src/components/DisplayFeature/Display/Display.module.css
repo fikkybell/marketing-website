@@ -1,0 +1,25 @@
+.Display{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+  
+
+.Images {
+    width: 80%;
+    max-width: 280px;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+
+@media (max-width: 1200px) {
+   .Display{
+       display: block;
+       width: 100%;
+       max-width: 500px;
+       margin: auto;
+       padding: auto;
+    
+   }
+}
